@@ -3,3 +3,6 @@ node_modules/
 
 # Parcel cache directory
 .parcel-cache/
+
+# Build directory
+dist/
