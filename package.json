@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
 
+  "scripts": {
+    "format": "biome format --write ."
+  },
+
   "devDependencies": {
     "@biomejs/biome": "^2.5.4",
     "parcel": "^2.16.4"
