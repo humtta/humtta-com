@@ -6,7 +6,8 @@
 
   "scripts": {
     "format": "biome format --write .",
-    "lint": "biome check ."
+    "lint": "biome check .",
+    "check": "npm run format && npm run lint"
   },
 
   "devDependencies": {
