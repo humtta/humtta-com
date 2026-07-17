@@ -2,5 +2,9 @@
   "name": "humtta-com",
   "description": "My personal website",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
 }
