@@ -1,2 +1,5 @@
 # Dependencies directory
 node_modules/
+
+# Parcel cache directory
+.parcel-cache/
