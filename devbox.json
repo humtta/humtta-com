@@ -3,5 +3,11 @@
 
   "packages": {
     "nodejs": "26.4.0"
+  },
+
+  "shell": {
+    "init_hook": [
+      "npm install"
+    ]
   }
 }
