@@ -57,6 +57,11 @@ body {
   line-height: var(--line-height);
 }
 
+h1 {
+  font-size: var(--font-size-lg);
+  opacity: var(--alpha-90);
+}
+
 /* Layout */
 
 .container {
