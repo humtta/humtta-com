@@ -67,6 +67,15 @@ p {
   opacity: var(--alpha-70);
 }
 
+a {
+  color: inherit;
+
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--fg-color), var(--alpha-30));
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 /* Layout */
 
 .container {
