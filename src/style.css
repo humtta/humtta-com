@@ -12,6 +12,11 @@
 
   /* Spacing */
   --spacing: 1.5rem;
+
+  /* Layout */
+  --container-max-width: 500px;
+  --container-padding-y: 15vh;
+  --container-padding-x: 1.5rem;
 }
 
 @media (prefers-color-scheme: light) {
