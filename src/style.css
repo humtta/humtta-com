@@ -46,6 +46,17 @@
   box-sizing: border-box;
 }
 
+/* Base */
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+}
+
 /* Layout */
 
 .container {
