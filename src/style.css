@@ -6,7 +6,7 @@
 :root {
   /* Colors */
   --bg-color: #000;
-  --fg-color: #fff;
+  --fg-color: 255, 255, 255; /* Same as #fff */
 
   /* Alpha */
   --alpha-90: 0.9;
@@ -32,7 +32,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff;
-    --fg-color: #000;
+    --fg-color: 0, 0, 0; /* Same as #000 */
   }
 }
 
@@ -50,7 +50,7 @@
 
 body {
   background-color: var(--bg-color);
-  color: var(--fg-color);
+  color: rgb(var(--fg-color));
 
   font-family: var(--font-family);
   font-weight: var(--font-weight);
