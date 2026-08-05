@@ -10,6 +10,13 @@
   --alpha-70: 0.7;
   --alpha-30: 0.3;
 
+  /* Typography */
+  --font-family: "Inter", sans-serif;
+  --font-weight: 500;
+  --line-height: 1.5;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+
   /* Spacing */
   --spacing: 1.5rem;
 
