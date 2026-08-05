@@ -74,6 +74,12 @@ a {
   text-decoration-color: rgba(var(--fg-color), var(--alpha-30));
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
+
+  transition: text-decoration-color 0.2s ease;
+}
+
+a:hover {
+  text-decoration-color: rgba(var(--fg-color), var(--alpha-70));
 }
 
 /* Layout */
