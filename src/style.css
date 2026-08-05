@@ -62,6 +62,11 @@ h1 {
   opacity: var(--alpha-90);
 }
 
+p {
+  font-size: var(--font-size-md);
+  opacity: var(--alpha-70);
+}
+
 /* Layout */
 
 .container {
