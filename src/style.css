@@ -35,3 +35,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Layout */
+
+.container {
+  margin: 0 auto;
+  padding: var(--container-padding-y) var(--container-padding-x);
+  max-width: var(--container-max-width);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
