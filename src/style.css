@@ -9,6 +9,9 @@
   --alpha-90: 0.9;
   --alpha-70: 0.7;
   --alpha-30: 0.3;
+
+  /* Spacing */
+  --spacing: 1.5rem;
 }
 
 @media (prefers-color-scheme: light) {
